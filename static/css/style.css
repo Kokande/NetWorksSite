@@ -1,0 +1,94 @@
+main {
+    background: url(backgrounds/blurred_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 1 0 auto;
+}
+
+html {
+    position: relative;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-width: 610px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #212529;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    height: 50px;
+    background-color: #212529;
+    flex-shrink: 0;
+    border-top: 1px solid #fa58c4;
+}
+
+.credits {
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
+    color: #fa58c4;
+}
+
+nav {
+    height: 64px;
+    border-bottom: 1px solid #fa58c4;
+}
+
+.home-image {
+    margin-right: 10px;
+    height: 48px;
+    width: auto;
+    user-select: none;
+}
+
+.txt-pink {
+    color: #fa58c4;
+}
+
+.dd-link {
+    text-decoration: none;
+    user-select: none;
+    height: 3rem;
+    border-left: 1px solid #111519;
+    display: block;
+    padding: 0.75rem 1rem;
+}
+
+.dd-link:hover, .dd-link:active, .dd-link.show, .dd-link.active {
+    color: #b5408e;
+    background-color: #1e2226;
+}
+
+a.dropdown-toggle {
+    cursor: pointer;
+}
+
+.dropdown-menu,
+.dropdown-menu>li>a {
+    color: #fa58c4;
+    background-color: #212529;
+}
+
+.dropdown-menu>li>a:hover {
+    color: #b5408e;
+    background-color: #1e2226;
+}
+
+.navbar-line {
+    flex-grow: 1;
+    align-items: center;
+}
+
+.textarea {
+    background-color: #212529;
+    color: #fa58c4;
+    margin: 10px;
+    padding: 10px;
+}
